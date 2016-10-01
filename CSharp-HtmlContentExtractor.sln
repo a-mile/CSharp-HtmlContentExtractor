@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-HtmlParser-Library", "..\CSharp-HtmlParser\CSharp-HtmlParser-Library\CSharp-HtmlParser-Library.csproj", "{874B41EA-18D4-45C3-A08B-67FCD0227740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-HtmlContentExtractor-Tests", "CSharp-HtmlContentExtractor-Tests\CSharp-HtmlContentExtractor-Tests.csproj", "{2FED47C8-E154-4523-946A-02AC1DAC89EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-HtmlContentExtractor-Library", "CSharp-HtmlContentExtractor-Library\CSharp-HtmlContentExtractor-Library.csproj", "{68335C72-DB96-4519-BFF4-2E361074FE74}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{874B41EA-18D4-45C3-A08B-67FCD0227740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874B41EA-18D4-45C3-A08B-67FCD0227740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874B41EA-18D4-45C3-A08B-67FCD0227740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874B41EA-18D4-45C3-A08B-67FCD0227740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FED47C8-E154-4523-946A-02AC1DAC89EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FED47C8-E154-4523-946A-02AC1DAC89EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FED47C8-E154-4523-946A-02AC1DAC89EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FED47C8-E154-4523-946A-02AC1DAC89EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68335C72-DB96-4519-BFF4-2E361074FE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68335C72-DB96-4519-BFF4-2E361074FE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68335C72-DB96-4519-BFF4-2E361074FE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68335C72-DB96-4519-BFF4-2E361074FE74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
